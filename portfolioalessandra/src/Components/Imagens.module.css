@@ -1,0 +1,22 @@
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    align-items: center;
+}
+
+/* .image {
+    width: 50%;
+} */
+
+.image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; /* Transição suave */
+}
+
+.image:hover {
+  transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa por cima */
+}
