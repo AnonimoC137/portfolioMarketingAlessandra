@@ -3,6 +3,7 @@
     background-color: blueviolet;
     width: 100%;
     height: 6rem;
+    background: linear-gradient(to right, #034092, #b20fd4);
 }
 
 .nav {

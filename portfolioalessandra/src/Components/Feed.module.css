@@ -28,7 +28,7 @@
     text-align: center;
     margin: auto;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: blueviolet;
+    background: linear-gradient(to right, #034092, #b20fd4);
     color: aliceblue;
     padding: .5rem;
 }
@@ -38,23 +38,35 @@
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    background-color: bisque;
+    background-color: rgb(252, 250, 248);
+    background-image: url('../assets/imagens/textura2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containerTitulo p {
+    color: #222121;
+    border: 1px solid #0f0f0f;
+    font-family: 'Georgia', serif; 
+    font-size: 5rem; 
+    line-height: 1.2; 
+    text-align: center; 
+    white-space: pre-line; 
+    border-radius: 50%;
+    padding: 5rem;
+
 }
 
 .containerTexto {
     margin-top: 5rem;
 }
 
-.containerTitulo p {
+.containerTexto p {
     color: black;
-    font-family: 'Georgia', serif; 
-    font-size: 5rem; 
-    line-height: 1.2; 
-    text-align: center; 
-    white-space: pre-line; 
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 5rem;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 .containerTitulo p::before {
@@ -70,12 +82,6 @@
   font-weight: bold;
 }
 
-.containerTexto p {
-    color: black;
-    font-size: 2.5rem;
-    text-align: left;
-    margin-left: 2rem;
-}
 .containerTexto h1 {
     color: black;
     font-size: 3rem;
@@ -96,10 +102,14 @@
     }
 
     .containerTitulo p {
-        height: 16rem;
+        height: 12rem;
         font-size: 1.2rem;
-        width: 94%;
+        width: 75%;
         margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
     }
 
     .containerTexto {
