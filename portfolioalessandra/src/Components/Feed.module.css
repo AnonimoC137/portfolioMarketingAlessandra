@@ -28,3 +28,18 @@
     color: aliceblue;
     padding: .5rem;
 }
+
+@media (min-width: 400px) and (max-width: 425px)  {
+    .section2 {
+        display: block;
+        padding: 1rem;
+        height: 30rem;
+    }
+}
+
+@media (min-width:768px) and (max-width: 799px) {
+    .section2 {
+        display: block;
+        padding: 1rem;
+    }
+}

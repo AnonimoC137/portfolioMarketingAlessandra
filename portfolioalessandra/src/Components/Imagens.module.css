@@ -20,3 +20,11 @@
 .image:hover {
   transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa por cima */
 }
+
+
+@media (max-width:768px) {
+    .imageContainer {
+        max-width: 33%;
+        margin: 1rem auto;
+    }
+}
