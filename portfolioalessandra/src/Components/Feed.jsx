@@ -8,7 +8,16 @@ const Feed = () => {
   return (
     <>
       <div className={styles.container}>
-        <section className={styles.section1}></section>
+        <section className={styles.section1}>
+            <div className={styles.containerTitulo}>
+                <p>ME CHAMO</p>
+            </div>
+            <div className={styles.containerTexto}>
+                <h1>Sobre Mim</h1>
+                <p>Sou uma profissional criativa apaixonada por design e estratégias de marketing digital. Meu foco é desenvolver soluções visuais impactantes que ajudem marcas a se destacarem no ambiente online, criando campanhas personalizadas e artes únicas. Criação de conteúdo para redes sociais, estou sempre em busca de novas inspirações para melhorar minhas habilidades e trazer inovação para cada projeto que realizo.
+                </p>
+            </div>
+        </section>
         <h1 className={styles.tituloCRS}>Artes feitas para @CRS</h1>
         <section className={styles.section2}>
             
