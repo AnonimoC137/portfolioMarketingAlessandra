@@ -91,7 +91,7 @@
     margin-bottom: 3rem;
 }
 
-@media (min-width: 400px) and (max-width: 425px)  {
+@media (min-width: 400px) and (max-width: 460px)  {
     .section1 {
         height: 45rem;
         display: block;
