@@ -60,6 +60,7 @@
 
 .containerTexto {
     margin-top: 5rem;
+    margin-right: 2rem;
 }
 
 .containerTexto p {
@@ -67,7 +68,7 @@
     font-size: 2.5rem;
     text-align: left;
     margin-left: 2rem;
-    line-height: 1.5rem;
+    line-height: 3rem;
 }
 
 .containerTitulo p::before {
@@ -117,16 +118,16 @@
         height: 2rem;
         width: 100%;
         margin-top: 1rem;
+        margin-right: 2rem;
         padding: 1rem;
 
     }
 
     .containerTexto p {
         height: 2rem;
-        width: 100%;
         font-size: 1rem;
         padding: 0px;
-        margin: 1rem;
+        line-height: 1.5rem;
     }
 
     .section2 {
@@ -142,7 +143,7 @@
 
 @media (min-width: 400px) and (max-width: 460px)  {
     .section1 {
-        height: 45rem;
+        height: 55rem;
         display: block;
     }
 
@@ -166,16 +167,14 @@
         height: 2rem;
         width: 100%;
         margin-top: 1rem;
-        padding: 1rem;
-
+        padding-right: 2rem;
     }
 
     .containerTexto p {
         height: 2rem;
-        width: 100%;
         font-size: 1rem;
+        line-height: 2rem;
         padding: 0px;
-        margin: 1rem;
     }
 
     .section2 {
@@ -221,10 +220,8 @@
 
     .containerTexto p {
         height: 2rem;
-        width: 100%;
         font-size: 1rem;
         padding: 0px;
-        margin: 1rem;
     }
 
     .section2 {
@@ -240,6 +237,9 @@
 
 @media (min-width: 1440px) and (max-width: 1600px)  {
    .containerTexto p {
-        line-height: 2.5rem;
+        line-height: 3.2rem;
+    }
+    .section1 {
+        height: 70rem;
     }
 }
