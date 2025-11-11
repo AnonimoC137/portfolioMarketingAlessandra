@@ -1,6 +1,7 @@
 .container {
     background-color: azure;
     width: 100%;
+    height: auto;
 }
 
 .section1 {
@@ -14,7 +15,10 @@
 .section2 {
     width: 100%;
     background-color: rgb(186, 187, 187);
-    height: 50rem;
+    height: auto;
+    padding: 3rem 0;
+    flex-wrap: wrap; 
+    gap: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,15 +50,17 @@
 }
 
 .containerTitulo p {
-    color: #222121;
+    color: #fff;
+    background-color: blueviolet;
     border: 1px solid #0f0f0f;
     font-family: 'Georgia', serif; 
     font-size: 5rem; 
     line-height: 1.2; 
     text-align: center; 
     white-space: pre-line; 
-    border-radius: 50%;
+    border-radius: 16% 0;
     padding: 5rem;
+    height: auto;
 
 }
 
@@ -72,13 +78,11 @@
 }
 
 .containerTitulo p::before {
-  content: "OLÁ,"; 
   display: block;
   margin-bottom: 10px; 
 }
 
 .containerTitulo p::after {
-  content: "ALESSANDRA"; 
   display: block;
   margin-top: 10px; 
   font-weight: bold;
@@ -94,12 +98,12 @@
 
 @media (min-width: 300px) and (max-width: 399px)  {
     .section1 {
-        height: 45rem;
+        height: auto;
         display: block;
     }
 
     .containerTitulo {
-        height: 20rem;
+        height: auto;
         width: 100%;
     }
 
@@ -115,7 +119,7 @@
     }
 
     .containerTexto {
-        height: 2rem;
+        height: auto;
         width: 100%;
         margin-top: 1rem;
         margin-right: 2rem;
@@ -124,7 +128,7 @@
     }
 
     .containerTexto p {
-        height: 2rem;
+        height: auto;
         font-size: 1rem;
         padding: 0px;
         line-height: 1.5rem;
@@ -133,7 +137,6 @@
     .section2 {
         display: block;
         padding: 1rem;
-        height: 30rem;
     }
 
     .tituloCRS {
@@ -143,12 +146,10 @@
 
 @media (min-width: 400px) and (max-width: 460px)  {
     .section1 {
-        height: 55rem;
         display: block;
     }
 
     .containerTitulo {
-        height: 20rem;
         width: 100%;
     }
 
@@ -237,17 +238,17 @@
 
 @media (min-width:900px) and (max-width: 1000px) {
     .section1 {
-        height: 45rem;
+        height: auto;
         display: block;
     }
 
     .containerTitulo {
-        height: 20rem;
+        height: auto;
         width: 100%;
     }
 
     .containerTitulo p {
-        height: 12rem;
+        height: auto;
         font-size: 1.2rem;
         width: 50%;
         margin-top: 1rem;
@@ -274,6 +275,52 @@
     .section2 {
         padding: 1rem;
         height: 35rem;
+    }
+
+    .tituloCRS {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1199px) {
+    .section1 {
+        height: auto;
+        display: block;
+    }
+
+    .containerTitulo {
+        height: auto;
+        width: 100%;
+    }
+
+    .containerTitulo p {
+        height: auto;
+        font-size: 1.2rem;
+        width: 50%;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .containerTexto {
+        height: auto;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+
+    }
+
+    .containerTexto p {
+        height: auto;
+        font-size: 1rem;
+        padding: 0px;
+    }
+
+    .section2 {
+        padding: 1rem;
+        height: auto;
     }
 
     .tituloCRS {

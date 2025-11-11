@@ -33,3 +33,9 @@
 .navList li a:hover {
   color: #f0f0f0;
 }
+
+@media (max-width: 768px) {
+  .navList li {
+    white-space: nowrap;
+  }
+}
