@@ -10,8 +10,7 @@
 } */
 
 .image {
-  max-width: 300px;
-  width: 100%;
+  width: 300px;
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out; /* Transição suave */

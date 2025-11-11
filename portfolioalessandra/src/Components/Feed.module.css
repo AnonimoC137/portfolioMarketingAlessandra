@@ -137,6 +137,7 @@
     .section2 {
         display: block;
         padding: 1rem;
+        height: auto;
     }
 
     .tituloCRS {
@@ -181,7 +182,7 @@
     .section2 {
         display: block;
         padding: 1rem;
-        height: 30rem;
+        height: auto;
     }
 
     .tituloCRS {
@@ -226,9 +227,8 @@
     }
 
     .section2 {
-
         padding: 1rem;
-        height: 30rem;
+        height: auto;
     }
 
     .tituloCRS {
@@ -274,7 +274,7 @@
 
     .section2 {
         padding: 1rem;
-        height: 35rem;
+        height: auto;
     }
 
     .tituloCRS {
@@ -365,7 +365,7 @@
 
     .section2 {
         padding: 1rem;
-        height: 35rem;
+        height: auto;
     }
 
     .tituloCRS {
