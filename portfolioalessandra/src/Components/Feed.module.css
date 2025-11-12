@@ -240,14 +240,14 @@ html, body {
     }
 
     .containerTexto {
-        height: 2rem;
+        height: auto;
         width: 100%;
         margin-top: 1rem;
         padding-right: 2rem;
     }
 
     .containerTexto p {
-        height: 2rem;
+        height: auto;
         font-size: 1rem;
         line-height: 2rem;
         padding: 0px;
@@ -270,7 +270,7 @@ html, body {
 
 @media (min-width:768px) and (max-width: 799px) {
     .section1 {
-        height: 45rem;
+        height: auto;
         display: block;
     }
 
@@ -291,7 +291,7 @@ html, body {
     }
 
     .containerTexto {
-        height: 2rem;
+        height: auto;
         width: 100%;
         margin-top: 1rem;
         padding: 1rem;
@@ -299,7 +299,7 @@ html, body {
     }
 
     .containerTexto p {
-        height: 2rem;
+        height: auto;
         font-size: 1rem;
         padding: 0px;
     }
