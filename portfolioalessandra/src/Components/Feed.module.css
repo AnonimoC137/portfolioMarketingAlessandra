@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../assets/imagens/fundo-texturizado-de-tecido.jpg');
+    background-image: url('../assets/imagens/acima-veja-papel-colorido-em-fundo-roxo.jpg');
     opacity: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
 
 .containerTitulo {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     padding: 3rem;
@@ -71,24 +71,24 @@
     line-height: 1.2; 
     text-align: center; 
     white-space: pre-line; 
-    border-radius: 16% 0;
+    border-radius: 10px 10px;
     padding: 5rem;
     height: auto;
 
 }
 
-.containerTexto {
+/* .containerTexto {
     margin-top: 5rem;
     margin-right: 2rem;
-}
+} */
 
-.containerTexto p {
+/* .containerTexto p {
     color: black;
     font-size: 2.5rem;
     text-align: left;
     margin-left: 2rem;
     line-height: 3rem;
-}
+} */
 
 .containerTitulo p::before {
   display: block;
@@ -101,12 +101,58 @@
   font-weight: bold;
 }
 
-.containerTexto h1 {
+/* .containerTexto h1 {
     color: black;
     font-size: 3rem;
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+} */
+
+
+.containerTexto {
+  background: #f2fcff;
+  border-top: 4px solid #8a2be2;
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.containerTexto h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0f0f0f;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.containerTexto h1 .detalhe {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(to right, #034092, #b20fd4);
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+}
+
+.containerTexto p {
+  font-size: 1.2rem;
+  color: #222;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.containerTexto p strong {
+  color: #7a19b8;
 }
 
 @media (min-width: 300px) and (max-width: 399px)  {
@@ -329,7 +375,7 @@
     .containerTexto {
         height: auto;
         width: 100%;
-        margin-top: 1rem;
+        margin: 1rem 1rem;
         padding: 1rem;
 
     }
@@ -352,7 +398,7 @@
 
 @media (min-width:1200px) and (max-width: 1400px) {
     .section1 {
-        height: 55rem;
+        height: auto;
         display: block;
     }
 
@@ -374,7 +420,7 @@
 
     .containerTexto {
         height: 2rem;
-        margin-top: 1rem;
+        margin: 1rem 1rem;
         padding: 1rem;
 
     }
@@ -396,10 +442,13 @@
 }
 
 @media (min-width: 1440px) and (max-width: 1600px)  {
+    .containerTexto {
+        margin: 1rem 1rem;
+    }
    .containerTexto p {
         line-height: 3.2rem;
     }
     .section1 {
-        height: 70rem;
+        height: auto;
     }
 }
