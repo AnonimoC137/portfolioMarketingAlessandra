@@ -1,0 +1,46 @@
+.button {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 300px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.6rem;
+    vertical-align: middle;
+}
+
+
+
+/* Estilo principal */
+.primary {
+    background: linear-gradient(to right, #034092, #b20fd4);
+    color: white;
+    margin-top: 3rem;
+}
+
+.primary:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+/* Variante secundária */
+.secondary {
+  background: transparent;
+  border: 2px solid #b20fd4;
+  color: #b20fd4;
+}
+
+.secondary:hover {
+  background-color: #b20fd4;
+  color: white;
+}
