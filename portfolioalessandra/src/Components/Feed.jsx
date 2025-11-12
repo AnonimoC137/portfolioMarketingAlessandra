@@ -93,9 +93,23 @@ const Feed = () => {
         </section>
         <h1 className={styles.tituloCRS}>Meus Contatos</h1>
         <section className={styles.section3} id='contatos'>
-          <Button text='Whatsapp' variant="secondary"/>
-          <Button text='Linkedin' variant="secondary"/>
-          <Button text='Gmail' variant="secondary"/>
+          <Button 
+            text='Whatsapp' 
+            href="https://wa.me/554788963699?text=Olá%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%21" 
+            target="_blank" 
+            variant="secondary"
+          />
+          <Button 
+            text="Linkedin" 
+            href="https://www.linkedin.com/in/alessandranatiele/" 
+            target="_blank"
+            variant="secondary"
+          />
+          <Button 
+            text='Gmail'
+            href="mailto:alenatiele97@gmail.com?subject=Contato%20pelo%20Portfólio&body=Olá%2C%20gostaria%20de%20conhecer%20melhor%20seu%20trabalho."
+            target="_blank" 
+            variant="secondary"/>
         </section>
 
       </div>
