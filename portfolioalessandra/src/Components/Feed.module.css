@@ -211,7 +211,7 @@
 @media (min-width: 400px) and (max-width: 460px)  {
     .section1 {
         display: block;
-        height: 53rem;
+        height: auto;
     }
 
     .containerTitulo {
