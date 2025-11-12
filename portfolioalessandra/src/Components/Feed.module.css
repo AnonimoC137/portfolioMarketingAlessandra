@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  overflow-x: hidden; /* evita rolagem lateral */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .container {
     background-color: azure;
     width: 100%;
@@ -7,7 +17,7 @@
 .section1 {
     width: 100%;
     background-color: azure;
-    height: 50rem;
+    min-height: 50rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
