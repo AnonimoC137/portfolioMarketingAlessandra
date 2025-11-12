@@ -41,7 +41,7 @@ const Feed = () => {
             </div>
             <div className={styles.containerTexto}>
             <h1>
-              <span className={styles.detalhe}></span>
+              <span className={styles.detalhe} id='sobre-mim'></span>
               Sobre Mim
             </h1>
 
